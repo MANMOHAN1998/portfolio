@@ -80,17 +80,17 @@
 }
 
 .buttons button:hover{
-    background-color: white;
-    color: dodgerblue;
+    background-color: dodgerblue ;
+    color: white;
 }
 
 .buttons button{
     margin: 0 3px;
-    background-color: dodgerblue;
+    background-color: transparent;
     font-size: 20px;
     font-weight: bold;
     padding: 9px 10px;
     border-radius: 22px;
-    color: white;
+    color: black;
     cursor: pointer;
 }

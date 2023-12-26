@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manmohan Singh - Web developer, Programmer, ML Enthusiast</title>
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro/">My Intro</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/blog/">Blogs</a></li>
+                    <li><a href="/contact/">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+{%block body%}
+{% endblock %}
+</body>
+</html>
